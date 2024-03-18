@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Contains method which spawns wait_random n times with a
+"""Contains a method that spawns wait_random n times with a
 specified delay between each call."""
 import asyncio
 from typing import List
@@ -11,8 +11,8 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     """Spawns wait_random n times with a specified delay
     between each call.
     Args:
-        n: no of times to spawn wait_random
-        max_delay: max delay between each call
+        n: number of times to spawn wait_random
+        max_delay: maximum delay between each call
     Returns:
         list of delays
     """
